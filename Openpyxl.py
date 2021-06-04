@@ -13,7 +13,7 @@ for i in range(5):
 aba1[f'A6'] = '=SUM(A1:A5)'
 
 # Salva o arquivo
-arquivo.save('Openpyxl\Planilha.xlsx')
+arquivo.save('Planilha.xlsx')
 
 # Cria e renomeia uma nova aba
 aba2 = arquivo.create_sheet()
@@ -21,5 +21,5 @@ aba2.title = 'Aba 2'
 aba2['C3'] = 'Teste 123'
 
 # Salva o arquivo para sobrescrever as mudanças
-arquivo.save('Openpyxl\Planilha.xlsx')
-
+arquivo.save('Planilha.xlsx')
+exit()
