@@ -21,6 +21,4 @@ chrome.find_element_by_xpath('/html/body/app-root/app-produto-busca/div/div/div[
 # Pega o valor do preço por unidade e mostra no terminal
 preco = chrome.find_element_by_class_name('info-price').text
 print(f"Preço: {preco}")
-
-
-
+exit()
